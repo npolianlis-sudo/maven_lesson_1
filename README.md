@@ -253,6 +253,13 @@ Recommended: Tavily (free tier: 1000 searches/month) - https://tavily.com
 - **Slow responses**: Web search APIs may timeout; LLM fallback will handle it
 
 ## Deploy on Render
-- This repo includes `render.yaml`. Connect your GitHub repo in Render and deploy as a Web Service.
-- Render will run: `pip install -r backend/requirements.txt` and `uvicorn main:app --host 0.0.0.0 --port $PORT`.
-- Set `OPENAI_API_KEY` (or `OPENROUTER_API_KEY`) and optional Arize vars in the Render dashboard.
+
+1. Go to [render.com](https://render.com) and sign in (or create an account).
+2. Click **New** → **Blueprint** (or **New** → **Web Service**).
+3. Connect your GitHub account and select the `maven_lesson_1` (or your fork) repository.
+4. Render will detect `render.yaml` and create the **workout-planner** web service automatically.
+5. In the Render dashboard, add environment variables:
+   - **OPENAI_API_KEY** (required) or **OPENROUTER_API_KEY** (alternative)
+   - Optionally: **ENABLE_RAG**=1, **TAVILY_API_KEY**, **ARIZE_SPACE_ID**, **ARIZE_API_KEY**
+6. Deploy. The service will be available at `https://workout-planner-xxxx.onrender.com`.
+7. The frontend is served at `/`; the API docs are at `/docs`.
