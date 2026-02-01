@@ -3,13 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Plan Your Perfect Trip</title>
+  <title>Plan Your Workout</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="bg-neutral-50 text-neutral-900 antialiased font-[Inter]">
+<body class="bg-blue-50 text-neutral-900 antialiased font-[Inter]">
   <!-- Nav -->
   <header class="border-b border-neutral-200 bg-white/80 backdrop-blur">
     <div class="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
@@ -17,7 +17,7 @@
         <span class="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-tr from-indigo-600 via-violet-600 to-fuchsia-600 text-white">
           <i data-lucide="compass" class="h-5 w-5"></i>
         </span>
-        <span class="text-lg font-semibold tracking-tight">Trip Planner</span>
+        <span class="text-lg font-semibold tracking-tight">Workout Planner</span>
       </div>
     </div>
   </header>
@@ -32,23 +32,23 @@
       <div class="relative grid gap-6 p-8 md:grid-cols-3 md:p-12">
         <div class="md:col-span-2">
           <h1 class="text-white text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
-            Plan Your Perfect Trip
+            Plan Your Workout
           </h1>
           <p class="mt-3 text-indigo-100/90 text-base md:text-lg">
-            Discover destinations, craft smart budgets, and get a personalized day-by-day itinerary in seconds.
+            Set your goal, choose your equipment, and get a personalized day-by-day workout plan in seconds.
           </p>
           <div class="mt-6 flex flex-wrap items-center gap-3">
             <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-2 text-white text-sm">
-              <i data-lucide="clock-8" class="h-4 w-4"></i>
-              Plan faster
+              <i data-lucide="target" class="h-4 w-4"></i>
+              Goal-focused
             </div>
             <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-2 text-white text-sm">
-              <i data-lucide="map" class="h-4 w-4"></i>
-              Smarter routes
+              <i data-lucide="calendar" class="h-4 w-4"></i>
+              Day-by-day plans
             </div>
             <div class="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-2 text-white text-sm">
-              <i data-lucide="sparkles" class="h-4 w-4"></i>
-              Local gems
+              <i data-lucide="dumbbell" class="h-4 w-4"></i>
+              Equipment-aware
             </div>
           </div>
         </div>
@@ -69,11 +69,11 @@
       <div class="rounded-xl border border-neutral-200 bg-white p-5 shadow-sm">
         <div class="flex items-center gap-3">
           <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-100 text-neutral-700">
-            <i data-lucide="search" class="h-5 w-5"></i>
+            <i data-lucide="user" class="h-5 w-5"></i>
           </span>
           <div>
-            <div class="font-semibold tracking-tight">Research</div>
-            <p class="text-sm text-neutral-600">Weather, highlights, neighborhoods.</p>
+            <div class="font-semibold tracking-tight">Fitness Profile</div>
+            <p class="text-sm text-neutral-600">Level, constraints, recovery.</p>
           </div>
         </div>
       </div>
@@ -83,30 +83,30 @@
             <i data-lucide="calendar-clock" class="h-5 w-5"></i>
           </span>
           <div>
-            <div class="font-semibold tracking-tight">Itineraries</div>
-            <p class="text-sm text-neutral-600">Day-by-day schedules, in minutes.</p>
+            <div class="font-semibold tracking-tight">Plans</div>
+            <p class="text-sm text-neutral-600">Day-by-day workout schedules.</p>
           </div>
         </div>
       </div>
       <div class="rounded-xl border border-neutral-200 bg-white p-5 shadow-sm">
         <div class="flex items-center gap-3">
           <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-100 text-neutral-700">
-            <i data-lucide="wallet" class="h-5 w-5"></i>
+            <i data-lucide="dumbbell" class="h-5 w-5"></i>
           </span>
           <div>
-            <div class="font-semibold tracking-tight">Budget</div>
-            <p class="text-sm text-neutral-600">Smart spend suggestions.</p>
+            <div class="font-semibold tracking-tight">Equipment</div>
+            <p class="text-sm text-neutral-600">Session length & options.</p>
           </div>
         </div>
       </div>
       <div class="rounded-xl border border-neutral-200 bg-white p-5 shadow-sm">
         <div class="flex items-center gap-3">
           <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-neutral-100 text-neutral-700">
-            <i data-lucide="map-pin" class="h-5 w-5"></i>
+            <i data-lucide="list" class="h-5 w-5"></i>
           </span>
           <div>
-            <div class="font-semibold tracking-tight">Local</div>
-            <p class="text-sm text-neutral-600">Authentic finds & hidden gems.</p>
+            <div class="font-semibold tracking-tight">Exercise Library</div>
+            <p class="text-sm text-neutral-600">Movements & progressions.</p>
           </div>
         </div>
       </div>
@@ -118,27 +118,27 @@
     <div class="grid gap-6 lg:grid-cols-3">
       <!-- Form -->
       <section class="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm">
-        <h2 class="text-2xl font-semibold tracking-tight">Plan Your Trip</h2>
-        <p class="mt-1 text-sm text-neutral-600">Enter a destination, number of days, budget, and interests.</p>
+        <h2 class="text-2xl font-semibold tracking-tight">Plan Your Workout</h2>
+        <p class="mt-1 text-sm text-neutral-600">Enter your goal, duration, fitness level, equipment, and constraints.</p>
 
         <form id="plannerForm" class="mt-6 space-y-4" autocomplete="off">
-          <!-- Destination -->
+          <!-- Goal -->
           <div>
-            <label for="destination" class="block text-sm font-medium text-neutral-800">Destination</label>
+            <label for="goal" class="block text-sm font-medium text-neutral-800">Goal</label>
             <div class="mt-2 relative">
-              <input id="destination" type="text" required placeholder="e.g., Kyoto, Japan"
+              <input id="goal" type="text" required placeholder="e.g., build strength, run 5K, lose weight"
                      class="w-full rounded-lg border border-neutral-300 bg-white px-3.5 py-2.5 text-neutral-900 placeholder-neutral-400 shadow-sm outline-none ring-0 focus:border-neutral-400 focus:ring-2 focus:ring-neutral-200" />
               <span class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400">
-                <i data-lucide="map-pin" class="h-4.5 w-4.5"></i>
+                <i data-lucide="target" class="h-4.5 w-4.5"></i>
               </span>
             </div>
           </div>
 
           <!-- Duration -->
           <div>
-            <label for="duration" class="block text-sm font-medium text-neutral-800">Duration (days)</label>
+            <label for="duration" class="block text-sm font-medium text-neutral-800">Duration</label>
             <div class="mt-2 relative">
-              <input id="duration" type="number" inputmode="numeric" min="1" max="30" step="1" required placeholder="e.g., 5"
+              <input id="duration" type="text" required placeholder="e.g., 4 weeks, 8 weeks"
                      class="w-full rounded-lg border border-neutral-300 bg-white px-3.5 py-2.5 text-neutral-900 placeholder-neutral-400 shadow-sm outline-none ring-0 focus:border-neutral-400 focus:ring-2 focus:ring-neutral-200" />
               <span class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400">
                 <i data-lucide="calendar" class="h-4.5 w-4.5"></i>
@@ -146,49 +146,49 @@
             </div>
           </div>
 
-          <!-- Budget (custom select) -->
-          <div class="relative">
-            <label class="block text-sm font-medium text-neutral-800">Budget</label>
-            <input id="budgetValue" type="hidden" value="moderate" />
-            <button id="budgetBtn" type="button"
-                    class="mt-2 w-full inline-flex items-center justify-between rounded-lg border border-neutral-300 bg-white px-3.5 py-2.5 text-left text-neutral-900 shadow-sm hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-neutral-200">
-              <span id="budgetLabel">Moderate</span>
-              <i data-lucide="chevron-down" class="h-4.5 w-4.5 text-neutral-500"></i>
-            </button>
-            <div id="budgetMenu" class="absolute z-20 mt-2 hidden w-full overflow-hidden rounded-lg border border-neutral-200 bg-white shadow-lg">
-              <button data-value="budget" class="flex w-full items-center justify-between px-3.5 py-2.5 text-sm hover:bg-neutral-50">
-                <span class="flex items-center gap-2">
-                  <i data-lucide="piggy-bank" class="h-4 w-4 text-neutral-500"></i>
-                  Budget
-                </span>
-                <span class="text-neutral-500 text-xs">Save more</span>
-              </button>
-              <button data-value="moderate" class="flex w-full items-center justify-between px-3.5 py-2.5 text-sm hover:bg-neutral-50">
-                <span class="flex items-center gap-2">
-                  <i data-lucide="wallet" class="h-4 w-4 text-neutral-500"></i>
-                  Moderate
-                </span>
-                <span class="text-neutral-500 text-xs">Balanced</span>
-              </button>
-              <button data-value="luxury" class="flex w-full items-center justify-between px-3.5 py-2.5 text-sm hover:bg-neutral-50">
-                <span class="flex items-center gap-2">
-                  <i data-lucide="gem" class="h-4 w-4 text-neutral-500"></i>
-                  Luxury
-                </span>
-                <span class="text-neutral-500 text-xs">Premium</span>
-              </button>
+          <!-- Fitness level -->
+          <div>
+            <label for="fitnessLevel" class="block text-sm font-medium text-neutral-800">Fitness level</label>
+            <div class="mt-2 relative">
+              <select id="fitnessLevel"
+                      class="w-full rounded-lg border border-neutral-300 bg-white px-3.5 py-2.5 text-neutral-900 shadow-sm outline-none ring-0 focus:border-neutral-400 focus:ring-2 focus:ring-neutral-200">
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+              </select>
             </div>
           </div>
 
-          <!-- Interests -->
+          <!-- Equipment -->
           <div>
-            <label for="interests" class="block text-sm font-medium text-neutral-800">Interests</label>
+            <label for="equipment" class="block text-sm font-medium text-neutral-800">Equipment</label>
             <div class="mt-2 relative">
-              <input id="interests" type="text" placeholder="e.g., food, culture, museums, nightlife"
+              <select id="equipment"
+                      class="w-full rounded-lg border border-neutral-300 bg-white px-3.5 py-2.5 text-neutral-900 shadow-sm outline-none ring-0 focus:border-neutral-400 focus:ring-2 focus:ring-neutral-200">
+                <option value="none">None (bodyweight)</option>
+                <option value="dumbbells">Dumbbells</option>
+                <option value="resistance bands">Resistance bands</option>
+                <option value="full gym">Full gym</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Days per week -->
+          <div>
+            <label for="daysPerWeek" class="block text-sm font-medium text-neutral-800">Days per week</label>
+            <div class="mt-2 relative">
+              <input id="daysPerWeek" type="number" inputmode="numeric" min="1" max="7" step="1" value="3" placeholder="e.g., 3"
                      class="w-full rounded-lg border border-neutral-300 bg-white px-3.5 py-2.5 text-neutral-900 placeholder-neutral-400 shadow-sm outline-none ring-0 focus:border-neutral-400 focus:ring-2 focus:ring-neutral-200" />
-              <span class="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-neutral-400">
-                <i data-lucide="sparkles" class="h-4.5 w-4.5"></i>
-              </span>
+            </div>
+          </div>
+
+          <!-- Constraints -->
+          <div>
+            <label for="constraints" class="block text-sm font-medium text-neutral-800">Constraints (optional)</label>
+            <div class="mt-2 relative">
+              <input id="constraints" type="text" placeholder="e.g., no running, knee-friendly"
+                     class="w-full rounded-lg border border-neutral-300 bg-white px-3.5 py-2.5 text-neutral-900 placeholder-neutral-400 shadow-sm outline-none ring-0 focus:border-neutral-400 focus:ring-2 focus:ring-neutral-200" />
             </div>
           </div>
 
@@ -196,8 +196,8 @@
           <div class="pt-2">
             <button type="submit"
                     class="w-full inline-flex items-center justify-center gap-2 rounded-lg bg-neutral-900 px-4 py-3 text-white shadow-sm transition hover:bg-neutral-800 focus:outline-none focus:ring-2 focus:ring-neutral-300">
-              <i data-lucide="route" class="h-5 w-5"></i>
-              <span class="font-medium">Plan My Trip</span>
+              <i data-lucide="dumbbell" class="h-5 w-5"></i>
+              <span class="font-medium">Plan My Workout</span>
             </button>
           </div>
         </form>
@@ -206,29 +206,29 @@
       <!-- Output -->
       <section class="lg:col-span-2 space-y-6">
         <div id="placeholderCard" class="rounded-xl border border-neutral-200 bg-white p-8 text-center shadow-sm">
-          <h3 class="text-xl md:text-2xl font-semibold tracking-tight">Fill out the form to get your personalized trip plan</h3>
-          <p class="mt-2 text-neutral-600">Enter your details on the left—your itinerary will appear here.</p>
+          <h3 class="text-xl md:text-2xl font-semibold tracking-tight">Fill out the form to get your personalized workout plan</h3>
+          <p class="mt-2 text-neutral-600">Enter your details on the left—your day-by-day plan will appear here.</p>
           <div class="mt-6 grid gap-3 sm:grid-cols-3">
             <div class="rounded-lg border border-neutral-200 p-4">
               <div class="flex items-center gap-2 text-neutral-700">
-                <i data-lucide="sunrise" class="h-4 w-4"></i>
-                Morning ideas
+                <i data-lucide="dumbbell" class="h-4 w-4"></i>
+                Strength
               </div>
-              <p class="mt-1 text-sm text-neutral-600">Neighborhood walk, cafe, must-see spot.</p>
+              <p class="mt-1 text-sm text-neutral-600">Progressive resistance, form cues.</p>
             </div>
             <div class="rounded-lg border border-neutral-200 p-4">
               <div class="flex items-center gap-2 text-neutral-700">
-                <i data-lucide="utensils" class="h-4 w-4"></i>
-                Food moments
+                <i data-lucide="activity" class="h-4 w-4"></i>
+                Cardio
               </div>
-              <p class="mt-1 text-sm text-neutral-600">Street food to chef-led tastings.</p>
+              <p class="mt-1 text-sm text-neutral-600">Conditioning and heart rate.</p>
             </div>
             <div class="rounded-lg border border-neutral-200 p-4">
               <div class="flex items-center gap-2 text-neutral-700">
-                <i data-lucide="moon" class="h-4 w-4"></i>
-                Evenings
+                <i data-lucide="heart" class="h-4 w-4"></i>
+                Recovery
               </div>
-              <p class="mt-1 text-sm text-neutral-600">Sunsets, shows, speakeasies.</p>
+              <p class="mt-1 text-sm text-neutral-600">Rest days and mobility.</p>
             </div>
           </div>
         </div>
@@ -245,7 +245,7 @@
           <span class="inline-flex h-7 w-7 items-center justify-center rounded-md bg-neutral-900 text-white">
             <i data-lucide="compass" class="h-4.5 w-4.5"></i>
           </span>
-          <span>&copy; <span id="year"></span> Trip Planner</span>
+          <span>&copy; <span id="year"></span> Workout Planner</span>
         </div>
         <div class="flex items-center gap-4">
           <a class="hover:text-neutral-900" href="#">Privacy</a>
@@ -263,31 +263,6 @@
     document.getElementById('year').textContent = new Date().getFullYear();
     renderIcons();
 
-    // Custom budget select
-    const budgetBtn = document.getElementById('budgetBtn');
-    const budgetMenu = document.getElementById('budgetMenu');
-    const budgetLabel = document.getElementById('budgetLabel');
-    const budgetValue = document.getElementById('budgetValue');
-
-    budgetBtn.addEventListener('click', () => {
-      budgetMenu.classList.toggle('hidden');
-    });
-
-    budgetMenu.querySelectorAll('button[data-value]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const val = btn.getAttribute('data-value');
-        budgetValue.value = val;
-        budgetLabel.textContent = btn.innerText.trim().split('\n')[0];
-        budgetMenu.classList.add('hidden');
-      });
-    });
-
-    document.addEventListener('click', (e) => {
-      if (!budgetBtn.contains(e.target) && !budgetMenu.contains(e.target)) {
-        budgetMenu.classList.add('hidden');
-      }
-    });
-
     // Planner logic (calls backend)
     const form = document.getElementById('plannerForm');
     const results = document.getElementById('results');
@@ -296,14 +271,15 @@
     async function submitToBackend(e) {
       e.preventDefault();
 
-      const destination = (document.getElementById('destination').value || '').trim();
-      const durationNum = Math.max(1, Math.min(30, parseInt(document.getElementById('duration').value || '0', 10)));
-      const duration = isFinite(durationNum) ? `${durationNum} days` : '3 days';
-      const budget = document.getElementById('budgetValue').value || 'moderate';
-      const interests = (document.getElementById('interests').value || '').trim();
+      const goal = (document.getElementById('goal').value || '').trim();
+      const duration = (document.getElementById('duration').value || '').trim();
+      const fitnessLevel = (document.getElementById('fitnessLevel').value || 'beginner').trim();
+      const equipment = (document.getElementById('equipment').value || 'none').trim();
+      const daysPerWeek = Math.max(1, Math.min(7, parseInt(document.getElementById('daysPerWeek').value || '3', 10)));
+      const constraints = (document.getElementById('constraints').value || '').trim();
 
-      if (!destination || !durationNum) {
-        alert('Please enter a destination and duration.');
+      if (!goal || !duration) {
+        alert('Please enter a goal and duration.');
         return;
       }
 
@@ -313,17 +289,17 @@
         <div class="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm">
           <div class="flex items-center gap-3 text-neutral-700">
             <i data-lucide="loader-2" class="h-5 w-5 animate-spin"></i>
-            Planning your itinerary...
+            Planning your workout...
           </div>
         </div>
       `;
       renderIcons();
 
       try {
-        const resp = await fetch('/plan-trip', {
+        const resp = await fetch('/plan-workout', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ destination, duration, budget, interests })
+          body: JSON.stringify({ goal, duration, fitness_level: fitnessLevel, equipment, days_per_week: daysPerWeek, constraints })
         });
 
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
@@ -334,7 +310,7 @@
         results.innerHTML = `
           <div class="rounded-xl border border-neutral-200 bg-white p-6 shadow-sm">
             <div class="mb-3 flex items-center justify-between">
-              <h3 class="text-xl font-semibold tracking-tight">Your Itinerary</h3>
+              <h3 class="text-xl font-semibold tracking-tight">Your Workout Plan</h3>
               <button id="printBtn" class="inline-flex items-center gap-2 rounded-lg border border-neutral-300 bg-white px-3 py-1.5 text-sm hover:bg-neutral-50">
                 <i data-lucide="printer" class="h-4 w-4"></i> Print / PDF
               </button>
@@ -350,7 +326,7 @@
           <div class="rounded-xl border border-red-200 bg-red-50 p-6 text-red-700">
             <div class="flex items-center gap-2">
               <i data-lucide="alert-triangle" class="h-5 w-5"></i>
-              <span>Failed to plan trip. Please try again.</span>
+              <span>Failed to plan workout. Please try again.</span>
             </div>
           </div>
         `;

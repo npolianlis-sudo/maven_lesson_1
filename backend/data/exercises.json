@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Push-ups",
+    "description": "Classic bodyweight chest and triceps exercise. Keep core tight and lower until chest nearly touches floor.",
+    "equipment": "bodyweight",
+    "muscle_group": "chest, triceps, core",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "muscle"],
+    "source": "curated"
+  },
+  {
+    "name": "Goblet Squat",
+    "description": "Hold a dumbbell or kettlebell at chest. Squat down keeping knees over toes, drive up through heels.",
+    "equipment": "dumbbells",
+    "muscle_group": "quads, glutes, core",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "muscle"],
+    "source": "curated"
+  },
+  {
+    "name": "Dumbbell Row",
+    "description": "Bend at waist, support on bench or knee. Pull dumbbell to hip, squeeze shoulder blade.",
+    "equipment": "dumbbells",
+    "muscle_group": "back, biceps",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "muscle"],
+    "source": "curated"
+  },
+  {
+    "name": "Plank",
+    "description": "Hold a straight line from head to heels on forearms and toes. Engage core and glutes.",
+    "equipment": "bodyweight",
+    "muscle_group": "core",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "stability", "core"],
+    "source": "curated"
+  },
+  {
+    "name": "Lunges",
+    "description": "Step forward, lower back knee toward floor. Keep front knee over ankle. Alternate legs.",
+    "equipment": "bodyweight",
+    "muscle_group": "quads, glutes, hamstrings",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "balance"],
+    "source": "curated"
+  },
+  {
+    "name": "Jumping Jacks",
+    "description": "Jump while spreading legs and raising arms overhead, then return. Good for warm-up and cardio.",
+    "equipment": "bodyweight",
+    "muscle_group": "full body",
+    "difficulty": "beginner",
+    "goal_tags": ["cardio", "warm-up"],
+    "source": "curated"
+  },
+  {
+    "name": "Burpees",
+    "description": "Squat, kick feet back to plank, optional push-up, jump feet in, jump up. High-intensity full-body move.",
+    "equipment": "bodyweight",
+    "muscle_group": "full body",
+    "difficulty": "intermediate",
+    "goal_tags": ["cardio", "strength"],
+    "source": "curated"
+  },
+  {
+    "name": "Resistance Band Rows",
+    "description": "Anchor band, pull hands to ribs squeezing shoulder blades. Control the return.",
+    "equipment": "resistance bands",
+    "muscle_group": "back, biceps",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "muscle"],
+    "source": "curated"
+  },
+  {
+    "name": "Band Squats",
+    "description": "Stand on band, hold at shoulders. Squat down and up, keeping tension in the band.",
+    "equipment": "resistance bands",
+    "muscle_group": "quads, glutes",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "muscle"],
+    "source": "curated"
+  },
+  {
+    "name": "Hip Hinge / Good Morning",
+    "description": "Hinge at hips with soft knees, lower torso toward floor, drive through glutes to stand.",
+    "equipment": "bodyweight",
+    "muscle_group": "hamstrings, glutes, back",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "mobility"],
+    "source": "curated"
+  },
+  {
+    "name": "Calf Raises",
+    "description": "Rise onto toes, pause at top, lower with control. Can be done bodyweight or with dumbbells.",
+    "equipment": "bodyweight",
+    "muscle_group": "calves",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "muscle"],
+    "source": "curated"
+  },
+  {
+    "name": "Glute Bridge",
+    "description": "Lie on back, feet flat. Drive through heels to lift hips, squeeze glutes at top.",
+    "equipment": "bodyweight",
+    "muscle_group": "glutes, core",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "mobility", "recovery"],
+    "source": "curated"
+  },
+  {
+    "name": "Cat-Cow Stretch",
+    "description": "On all fours, alternate rounding spine (cat) and arching (cow). Gentle mobility for spine.",
+    "equipment": "bodyweight",
+    "muscle_group": "core, back",
+    "difficulty": "beginner",
+    "goal_tags": ["mobility", "recovery", "warm-up"],
+    "source": "curated"
+  },
+  {
+    "name": "Dumbbell Shoulder Press",
+    "description": "Press dumbbells overhead from shoulder height. Keep core braced and avoid arching back.",
+    "equipment": "dumbbells",
+    "muscle_group": "shoulders, triceps",
+    "difficulty": "intermediate",
+    "goal_tags": ["strength", "muscle"],
+    "source": "curated"
+  },
+  {
+    "name": "Dead Bug",
+    "description": "On back, extend opposite arm and leg while keeping lower back pressed to floor. Alternate sides.",
+    "equipment": "bodyweight",
+    "muscle_group": "core",
+    "difficulty": "beginner",
+    "goal_tags": ["core", "stability", "recovery"],
+    "source": "curated"
+  },
+  {
+    "name": "Inchworms",
+    "description": "From standing, walk hands out to plank, then walk feet to hands. Stretches hamstrings and shoulders.",
+    "equipment": "bodyweight",
+    "muscle_group": "full body",
+    "difficulty": "beginner",
+    "goal_tags": ["mobility", "warm-up"],
+    "source": "curated"
+  },
+  {
+    "name": "Box Step-Ups",
+    "description": "Step one foot onto a stable box, drive up to stand. Lower with control. Low impact.",
+    "equipment": "bodyweight",
+    "muscle_group": "quads, glutes",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "cardio"],
+    "source": "curated"
+  },
+  {
+    "name": "Wall Sit",
+    "description": "Back against wall, slide down until knees at 90 degrees. Hold for time. Knee-friendly.",
+    "equipment": "bodyweight",
+    "muscle_group": "quads",
+    "difficulty": "beginner",
+    "goal_tags": ["strength", "endurance"],
+    "source": "curated"
+  },
+  {
+    "name": "Bird Dog",
+    "description": "On all fours, extend opposite arm and leg. Hold briefly, switch. Good for balance and core.",
+    "equipment": "bodyweight",
+    "muscle_group": "core, back",
+    "difficulty": "beginner",
+    "goal_tags": ["stability", "core", "recovery"],
+    "source": "curated"
+  },
+  {
+    "name": "High Knees",
+    "description": "Run in place driving knees up. Good for cardio and warm-up. Can be low impact by marching.",
+    "equipment": "bodyweight",
+    "muscle_group": "legs, core",
+    "difficulty": "beginner",
+    "goal_tags": ["cardio", "warm-up"],
+    "source": "curated"
+  }
+]

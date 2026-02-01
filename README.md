@@ -1,3 +1,11 @@
+# Workout Planner (adapted from AI Trip Planner)
+
+This repo is now a **Workout Planner**: same multi-agent architecture (FastAPI, LangGraph, optional RAG, Arize), with workout-domain agents, tools, and data. See [WORKOUT_PLANNER_PRD.md](WORKOUT_PLANNER_PRD.md) for the product spec.
+
+---
+
+*Original description (architecture patterns still apply):*
+
 # AI Trip Planner
 
 A **production-ready multi-agent system** built for learning and customization. This repo demonstrates three essential AI engineering patterns that students can study, modify, and adapt for their own use cases.
