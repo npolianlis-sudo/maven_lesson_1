@@ -9,7 +9,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="bg-blue-50 text-neutral-900 antialiased font-[Inter]">
+<body class="bg-neutral-100 text-neutral-900 antialiased font-[Inter]">
   <!-- Nav -->
   <header class="border-b border-neutral-200 bg-white/80 backdrop-blur">
     <div class="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
@@ -24,17 +24,65 @@
 
   <!-- Hero -->
   <section class="mx-auto max-w-7xl px-6 pt-10 pb-8">
-    <div class="relative overflow-hidden rounded-2xl border border-neutral-200 bg-gradient-to-tr from-indigo-600 via-violet-600 to-fuchsia-600">
-      <div class="absolute inset-0 opacity-20">
-        <img alt="Mountain landscape" class="h-full w-full object-cover"
-             src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=2000&auto=format&fit=crop" />
+    <div class="relative overflow-hidden rounded-2xl border border-neutral-800 bg-gradient-to-tr from-neutral-950 via-neutral-900 to-neutral-800">
+      <!-- Abstract banner icon graphics (dumbbells + barbells) -->
+      <div class="pointer-events-none absolute inset-0 opacity-25">
+        <div class="absolute -left-10 -top-10 h-72 w-72 rounded-full bg-white/10 blur-3xl"></div>
+        <div class="absolute -right-10 -bottom-10 h-72 w-72 rounded-full bg-white/10 blur-3xl"></div>
+        <div class="absolute inset-0 grid grid-cols-6 gap-6 p-10 text-white/35">
+          <i data-lucide="dumbbell" class="h-10 w-10 rotate-12"></i>
+          <svg class="h-10 w-10 -rotate-6" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+            <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <i data-lucide="dumbbell" class="h-10 w-10 -rotate-12"></i>
+          <svg class="h-10 w-10 rotate-6" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+            <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <i data-lucide="dumbbell" class="h-10 w-10 rotate-6"></i>
+          <i data-lucide="dumbbell" class="h-10 w-10 -rotate-6"></i>
+          <svg class="h-10 w-10 rotate-12" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+            <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <i data-lucide="dumbbell" class="h-10 w-10 -rotate-12"></i>
+          <svg class="h-10 w-10 -rotate-12" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+            <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <i data-lucide="dumbbell" class="h-10 w-10 rotate-12"></i>
+          <i data-lucide="dumbbell" class="h-10 w-10 -rotate-6"></i>
+          <svg class="h-10 w-10 rotate-6" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+            <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <i data-lucide="dumbbell" class="h-10 w-10 -rotate-12"></i>
+          <svg class="h-10 w-10 -rotate-6" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+            <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+            <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+          </svg>
+          <i data-lucide="dumbbell" class="h-10 w-10 rotate-6"></i>
+        </div>
       </div>
       <div class="relative grid gap-6 p-8 md:grid-cols-3 md:p-12">
         <div class="md:col-span-2">
           <h1 class="text-white text-4xl md:text-5xl font-semibold tracking-tight leading-tight">
             Plan Your Workout
           </h1>
-          <p class="mt-3 text-indigo-100/90 text-base md:text-lg">
+          <p class="mt-3 text-neutral-200/90 text-base md:text-lg">
             Set your goal, choose your equipment, and get a personalized day-by-day workout plan in seconds.
           </p>
           <div class="mt-6 flex flex-wrap items-center gap-3">
@@ -53,9 +101,47 @@
           </div>
         </div>
         <div class="hidden md:block">
-          <div class="relative h-full w-full rounded-xl bg-white/10 p-4 ring-1 ring-white/20 backdrop-blur">
-            <img alt="Abstract illustration of a bodybuilder doing a bicep curl" class="h-full w-full rounded-lg object-cover"
-                 src="/assets/banner_bodybuilder_curl.png" />
+          <div class="relative h-full w-full rounded-xl bg-white/10 p-6 ring-1 ring-white/20 backdrop-blur">
+            <div class="grid h-full w-full grid-cols-2 gap-4 text-white/90">
+              <div class="rounded-xl bg-black/20 p-5 ring-1 ring-white/10">
+                <div class="flex items-center gap-3">
+                  <i data-lucide="dumbbell" class="h-7 w-7"></i>
+                  <div class="font-semibold tracking-tight">Dumbbells</div>
+                </div>
+                <p class="mt-2 text-sm text-white/70">Strength training made simple.</p>
+              </div>
+              <div class="rounded-xl bg-black/20 p-5 ring-1 ring-white/10">
+                <div class="flex items-center gap-3">
+                  <svg class="h-7 w-7" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                    <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+                  </svg>
+                  <div class="font-semibold tracking-tight">Barbells</div>
+                </div>
+                <p class="mt-2 text-sm text-white/70">Big lifts and smart progressions.</p>
+              </div>
+              <div class="col-span-2 rounded-xl bg-black/20 p-5 ring-1 ring-white/10">
+                <div class="flex items-center justify-between gap-3">
+                  <div class="flex items-center gap-3">
+                    <i data-lucide="sparkles" class="h-6 w-6"></i>
+                    <div class="font-semibold tracking-tight">Workout inspo</div>
+                  </div>
+                  <div class="flex items-center gap-3 text-white/80">
+                    <i data-lucide="dumbbell" class="h-5 w-5"></i>
+                    <svg class="h-5 w-5" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+                      <path d="M10 24v16M54 24v16" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                      <path d="M16 20v24M48 20v24" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+                      <path d="M20 32h24" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+                      <path d="M6 28v8M58 28v8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+                    </svg>
+                    <i data-lucide="dumbbell" class="h-5 w-5"></i>
+                  </div>
+                </div>
+                <p class="mt-2 text-sm text-white/70">Clean, equipment-aware programs that fit your schedule.</p>
+              </div>
+            </div>
             <div class="absolute bottom-4 left-4 flex items-center gap-2 rounded-full bg-black/30 px-3 py-1.5 text-white text-xs">
               <i data-lucide="sparkles" class="h-3.5 w-3.5"></i> Workout inspo
             </div>
