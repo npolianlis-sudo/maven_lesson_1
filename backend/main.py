@@ -83,6 +83,26 @@ def _init_llm():
                 tool_calls: List[Dict[str, Any]] = []
             return _Msg()
 
+    class _NoKeyLLM:
+        """Fallback LLM when no API key is configured.
+
+        Allows the server to start (e.g., on Render) and returns a clear
+        message instead of crashing at import time.
+        """
+
+        def bind_tools(self, tools):
+            return self
+
+        def invoke(self, messages):
+            class _Msg:
+                content = (
+                    "Missing LLM credentials. Set OPENAI_API_KEY or OPENROUTER_API_KEY "
+                    "in the environment and redeploy."
+                )
+                tool_calls: List[Dict[str, Any]] = []
+
+            return _Msg()
+
     if os.getenv("TEST_MODE"):
         return _Fake()
     if os.getenv("OPENAI_API_KEY"):
@@ -96,8 +116,7 @@ def _init_llm():
             temperature=0.7,
         )
     else:
-        # Require a key unless running tests
-        raise ValueError("Please set OPENAI_API_KEY or OPENROUTER_API_KEY in your .env")
+        return _NoKeyLLM()
 
 
 llm = _init_llm()
